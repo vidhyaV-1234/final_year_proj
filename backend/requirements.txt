@@ -1,0 +1,25 @@
+# Core Dependencies
+python-dotenv==1.0.0
+
+# API & Authentication
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic[email]==2.5.0
+PyJWT==2.10.1
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Database
+supabase==2.4.2
+
+# Utilities
+numpy>=1.24.0
+requests>=2.31.0
+boto3>=1.28.0
+
+# ML/AI models (install only if needed)
+# openai==1.51.0
+# openai-whisper==20231117
+# torch>=2.0.0
+# transformers>=4.35.0
+# pillow>=10.0.0
